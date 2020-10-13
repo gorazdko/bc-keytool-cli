@@ -97,6 +97,29 @@ $ ./build.sh
 $ sudo make install
 ```
 
+### Build on Linux
+
+Make sure you have `llvm`/`clang`, `libc++` and `libc++abi` installed, all with
+a minimum recommended version 10.
+
+#### Build on Ubuntu and Debian
+
+```bash
+$ sudo apt install build-essential
+$ sudo apt install shunit2
+
+$ wget https://apt.llvm.org/llvm.sh
+$ chmod +x llvm.sh
+$ sudo ./llvm.sh 10  # version 10
+
+$ sudo apt-get install libc++-10-dev libc++abi-10-dev
+```
+
+```bash
+$ export CC="clang-10" && export CXX="clang++-10" && ./build.sh
+$ sudo make install
+```
+
 ## Alternative Installation
 
 This sequence does *not* install the dependencies from submodules; instead they must be installed in the usual places on the build system, otherwise the `./configure` step below will fail.
