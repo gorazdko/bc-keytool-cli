@@ -1,4 +1,4 @@
-# 🔑 Blockchain Commons bc-keytool-cli
+# 🔑 Blockchain Commons bc-keytool-cli 
 
 ![](images/logos/keytool-screen.png)
 
