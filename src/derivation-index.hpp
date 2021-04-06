@@ -8,7 +8,7 @@
 
 class DerivationIndex final {
 public:
-    DerivationIndex(uint32_t value);
+    explicit DerivationIndex(uint32_t value);
 
     uint32_t value() const { return _value; }
 
