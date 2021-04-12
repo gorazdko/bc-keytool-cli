@@ -1,9 +1,9 @@
 name: Lint
 on: [push, pull_request]
 jobs:
-  build-MacOS:
+  Lint:
     runs-on: macos-latest
     steps:
     - uses: actions/checkout@v2
     - run: brew install cppcheck
-    - run: make lint
+    - run: cppcheck --enable=all --error-exitcode=1 --inline-suppr --suppress=missingInclude --suppress=ConfigurationNotChecked .
