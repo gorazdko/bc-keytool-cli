@@ -1,7 +1,7 @@
 # 🔑 Blockchain Commons bc-keytool-cli
 
 ![Build](https://github.com/BlockchainCommons/bc-keytool-cli/workflows/ci/badge.svg)
-![Lint](https://github.com/BlockchainCommons/bc-keytool-cli/workflows/ci/badge.svg?name:make+lint)
+![Lint](https://github.com/BlockchainCommons/bc-keytool-cli/workflows/Lint/badge.svg)
 
 ### _by [Wolf McNally](https://www.github.com/wolfmcnally) and [Christopher Allen](https://www.github.com/ChristopherA)_
 
